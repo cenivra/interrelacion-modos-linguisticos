@@ -1,0 +1,1 @@
+﻿regex:[A-Za-z]:[\\/]+Users[\\/]+saraq[\\/]+==>[RUTA_USUARIO]/

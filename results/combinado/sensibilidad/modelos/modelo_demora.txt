@@ -1,0 +1,77 @@
+MODELO CON DEMORA
+Fórmula: valor ~ condicion * tiempo + demora + (1 | id_participante) 
+
+Resumen del modelo:
+Linear mixed model fit by REML. t-tests use Satterthwaite's method [
+lmerModLmerTest]
+Formula: formula
+   Data: dl
+Control: lmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 200000))
+
+REML criterion at convergence: 673.5
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-1.7381 -0.5799  0.0265  0.4625  2.2984 
+
+Random effects:
+ Groups          Name        Variance Std.Dev.
+ id_participante (Intercept) 5197     72.1    
+ Residual                    1785     42.3    
+Number of obs: 69, groups:  id_participante, 23
+
+Fixed effects:
+                         Estimate Std. Error     df t value Pr(>|t|)    
+(Intercept)                 97.15      36.19  23.99    2.68    0.013 *  
+condicionAudio              21.37      41.78  27.07    0.51    0.613    
+condicionImagen            -18.77      44.71  26.44   -0.42    0.678    
+tiempoT2                    49.62      21.13  40.00    2.35    0.024 *  
+tiempoT3                    96.12      21.13  40.00    4.55 0.000049 ***
+demoraND                   -13.83      33.44  19.00   -0.41    0.684    
+condicionAudio:tiempoT2      1.38      29.88  40.00    0.05    0.964    
+condicionImagen:tiempoT2    -8.77      30.92  40.00   -0.28    0.778    
+condicionAudio:tiempoT3     -5.50      29.88  40.00   -0.18    0.855    
+condicionImagen:tiempoT3   -15.55      30.92  40.00   -0.50    0.618    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Correlation of Fixed Effects:
+            (Intr) cndcnA cndcnI timpT2 timpT3 demrND cnA:T2 cnI:T2 cnA:T3
+condicionAd -0.577                                                        
+condicnImgn -0.686  0.467                                                 
+tiempoT2    -0.292  0.253  0.236                                          
+tiempoT3    -0.292  0.253  0.236  0.500                                   
+demoraND    -0.578  0.000  0.254  0.000  0.000                            
+cndcnAd:tT2  0.206 -0.358 -0.167 -0.707 -0.354  0.000                     
+cndcnImg:T2  0.199 -0.173 -0.346 -0.683 -0.342  0.000  0.483              
+cndcnAd:tT3  0.206 -0.358 -0.167 -0.354 -0.707  0.000  0.500  0.242       
+cndcnImg:T3  0.199 -0.173 -0.346 -0.342 -0.683  0.000  0.242  0.500  0.483
+
+
+ANOVA:
+Type III Analysis of Variance Table with Satterthwaite's method
+                 Sum Sq Mean Sq NumDF DenDF F value      Pr(>F)    
+condicion          2334    1167     2    19    0.65        0.53    
+tiempo            91056   45528     2    40   25.50 0.000000072 ***
+demora              305     305     1    19    0.17        0.68    
+condicion:tiempo    535     134     4    40    0.07        0.99    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+
+R² marginal: 0.1958  condicional: 0.7944 
+
+
+Comparación con modelo primario:
+      modelo    AIC    BIC R2_marginal R2_condicional
+1   primario 1272.7 1303.3      0.1667         0.7321
+2 con_demora  697.5  724.3      0.1958         0.7944
+
+
+Cambio en efecto de tiempo (primario -> con demora):
+         Estimate Std. Error df t value Pr(>|t|)
+tiempoT2    16.86      16.53 74   1.020  0.31101
+tiempoT3    43.29      16.53 74   2.619  0.01068
+         Estimate Std. Error df t value   Pr(>|t|)
+tiempoT2    49.62      21.13 40   2.349 0.02384783
+tiempoT3    96.12      21.13 40   4.550 0.00004903

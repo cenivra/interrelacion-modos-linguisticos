@@ -1,0 +1,18 @@
+# El propio archivo de atributos se lee tal cual (sin transformar).
+/.gitattributes -text
+
+# Finales de linea: LF en el repositorio y en el arbol de trabajo, en cualquier
+# sistema. Asi las huellas SHA-256 de manifests/SHA256_REPO.txt son identicas en
+# toda maquina y no dependen de la configuracion de Git de quien clone.
+* text=auto eol=lf
+
+# El manifiesto se compara byte a byte: nunca transformarlo.
+manifests/SHA256_REPO.txt -text
+
+# Binarios: sin transformacion.
+*.rds  binary
+*.png  binary
+*.pdf  binary
+*.jpg  binary
+*.xlsx binary
+*.zip  binary

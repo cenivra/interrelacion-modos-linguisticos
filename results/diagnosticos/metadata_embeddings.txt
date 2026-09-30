@@ -1,0 +1,29 @@
+modelo: paraphrase-multilingual-MiniLM-L12-v2
+dimension: 384
+normalizacion: L2
+fecha: 2026-09-25 19:13:21.452681
+n_narrativas: 40
+n_prototipos: 20
+frases_por_prototipo:
+  soledad = 5
+  espera = 5
+  incomunicacion = 5
+  objetos = 5
+  emociones_negativas = 5
+  luz_sombra = 5
+  pasividad = 5
+  desconexion = 5
+  duda = 5
+  espacio = 5
+  tristeza = 5
+  miedo = 5
+  ansiedad_malestar = 5
+  esperanza = 5
+  confianza = 5
+  agencia = 5
+  control = 5
+  incertidumbre = 5
+  evitacion = 5
+  afrontamiento = 5
+varianza_PC1: 12.68
+varianza_PC2: 7.51

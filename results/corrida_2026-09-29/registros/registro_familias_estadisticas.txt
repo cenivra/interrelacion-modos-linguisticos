@@ -1,0 +1,35 @@
+[18:00:17] cohorte principal: 69 observaciones de 23 participantes 
+[18:22:37] cohorte principal: 69 observaciones de 23 participantes 
+Compiling Stan program...
+Start sampling
+[18:27:04]   lognormal ajustado en 4.5 min 
+Error in `.validate_prior()`:
+! The following priors do not correspond to any model parameter: 
+sigma ~ exponential(1)
+Function 'default_prior' might be helpful to you.
+Backtrace:
+    ▆
+ 1. └─global ajusta("gamma", Gamma(link = "log"))
+ 2.   └─brms::brm(...)
+ 3.     └─brms:::.validate_prior(prior, bframe = bframe, sample_prior = sample_prior)
+ 4.       └─brms:::stop2(...)
+ 5.         └─rlang::abort(...)
+Ejecución interrumpida
+[18:29:48] cohorte principal: 69 observaciones de 23 participantes 
+[18:30:13] cohorte principal: 69 observaciones de 23 participantes 
+[18:32:14]   lognormal ajustado en 2 min 
+[18:33:09] cohorte principal: 69 observaciones de 23 participantes 
+[18:35:52]   lognormal ajustado en 2.7 min 
+[18:38:03]   gamma ajustado en 2.2 min 
+[18:40:02]   t de Student ajustado en 2 min 
+[18:41:49]   gaussiana log ajustado en 1.8 min 
+[18:41:52] comparación por LOO (mejor primero): 
+[18:41:52]    gaussiana_log → ΔELPD = 0 (EE 0) 
+[18:41:52]    lognormal → ΔELPD = -325.4 (EE 5.7) 
+[18:41:52]    gamma → ΔELPD = -328.3 (EE 6.1) 
+[18:41:52]    student → ΔELPD = -455.4 (EE 11.9) 
+[18:41:54]   lognormal: crecimiento 80 [54.9, 111.1] | Audio-Texto 22.9 [-43.9, 88.5] 
+[18:41:54]   gamma: crecimiento 78.3 [50, 114.7] | Audio-Texto 20.7 [-43.6, 88.8] 
+[18:41:54]   student: crecimiento 0 [-1.1, 1.1] | Audio-Texto 0 [-1.1, 1.1] 
+[18:41:54]   gaussiana_log: crecimiento 76.4 [51.2, 107.7] | Audio-Texto 18.3 [-46.7, 87.6] 
+[18:41:54] RESUMEN.md escrito. listo. 

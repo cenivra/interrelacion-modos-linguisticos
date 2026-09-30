@@ -1,0 +1,6 @@
+[18:42:53] observaciones: 69 de 23 participantes 
+[18:42:53] media de palabras: 137.3 
+[18:45:41] t de Student ajustada en 2.8 min 
+[18:45:42] crecimiento 71 [45.4, 95.5] | Audio-Texto 2.2 [-43.1, 47.5] 
+[18:45:44] LOO propio: elpd = -373.6 (EE 6.9), p_loo = 26.1 
+[18:45:44] listo. Para comparar con lognormal y gamma hay que rehacer la comparación juntas (misma variable). 

@@ -1,0 +1,33 @@
+[17:37:59] cohorte: principal 
+[17:37:59] salida:  C:/Users/saraq/Downloads/Experimento Alfonso Lopez Corral/Analisis agosto v2/robustez_bayesiano/principal 
+[17:38:00] participantes: 23 | distribución por condición: Audio=8, Imagen=7, Texto=8 
+[17:38:00] demora: D=11, ND=12 
+[17:38:00] observaciones del desenlace: 69 
+[17:38:00] MATTR calculado (ventana 100): valores finitos = 37 de 69 
+[17:38:02] A1 influencia: coeficiente original 51 | rango sin un participante: 43.14 a 57.86 | cambio máximo: 7.86 
+[17:38:02] A2 MATTR: tiempo F(2,15.4)=3.70 p=0.049 | medias 0.651 / 0.662 / 0.667 
+[17:38:04] A3 temas: 10 evaluados | con varianza cero: ninguno 
+[17:38:04] A3 temas con efecto de tiempo antes de FDR: rate_soledad 
+[17:38:04] A3 temas que sobreviven a FDR: rate_soledad 
+[17:38:21] A5 bootstrap (200 réplicas) del primer contraste de tiempo: IC 95 % [24.2, 80] 
+[17:38:22] B: ajustando modelo lognormal (4 cadenas × 2000 iteraciones)… 
+[17:43:03] B: modelo principal ajustado en 4.7 min 
+[17:46:13] B2 crecimiento T1→T3: 80 palabras, IC 95 % [54.9, 111.1] → cambio sustancial 
+[17:46:13] B2 Audio vs Texto: 22.9 palabras, IC 95 % [-43.9, 88.5] → no concluyente 
+[17:46:13] B2 probabilidad de que el crecimiento supere 20 palabras: 1.000 | de que la diferencia entre modos caiga dentro del ROPE ±20: 0.372 
+[17:46:20] B3 LOO: mejor modelo = m_bay_sin (ΔELPD = 0) 
+[17:46:20] B3 sensibilidad: el coeficiente de tiempo cambia 10.4% al ampliar el prior 
+[17:46:23] B5 potencia aproximada (probabilidad de declarar diferencia real de 20 palabras): n=72→0.10 | n=24→0.01 | n=27→0.01 | n=30→0.01 | n=36→0.02 | n=42→0.03 | n=48→0.04 | n=60→0.08 
+[17:46:23] B5 con los cinco participantes nuevos (n=28) la potencia para 20 palabras pasa de 0.10 a 0.01 
+[17:47:28] recalculando posteriores con los modelos guardados… 
+[17:47:29] B2 crecimiento T1→T3 (palabras): 80 palabras, IC 95 % [54.9, 111.1] | P(>0) = 1.000 | P(dentro del ROPE) = 0.000 → cambio sustancial 
+[17:47:29] B2 Audio vs Texto (palabras): 22.9 palabras, IC 95 % [-43.9, 88.5] | P(>0) = 0.771 | P(dentro del ROPE) = 0.372 → no concluyente 
+[17:47:50] recalculando posteriores con los modelos guardados… 
+[17:47:51] B2 crecimiento T1→T3 (palabras): 80 palabras, IC 95 % [54.9, 111.1] | P(>0) = 1.000 | P(dentro del ROPE) = 0.000 → cambio sustancial 
+[17:47:51] B2 Audio vs Texto (palabras): 22.9 palabras, IC 95 % [-43.9, 88.5] | P(>0) = 0.771 | P(dentro del ROPE) = 0.372 → no concluyente 
+[17:47:52] B3 LOO: mejor modelo = m_sin (ΔELPD frente al otro = 4.6, EE = 1) 
+[17:47:52] B3 sensibilidad al prior: coeficiente de tiempo 10.4% al ampliarlo 
+[17:47:52] B5 potencia para una diferencia real de 20 palabras: n=23→0.09 | n=28→0.10 | n=34→0.11 | n=40→0.12 | n=48→0.14 | n=60→0.16 | n=69→0.18 
+[17:47:52] B5 para 40 palabras: n=23→0.22 | n=28→0.26 | n=34→0.31 | n=40→0.35 | n=48→0.41 | n=60→0.49 | n=69→0.55 
+[17:47:52] B5 con n=28 la diferencia mínima detectable al 80 % es de 85 palabras 
+[17:47:56] RESUMEN.md escrito. listo. 

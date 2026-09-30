@@ -1,0 +1,4 @@
+variable,estado,n_participantes,n_completos,sd_global,min,max,motivo
+n_palabras,INSUFICIENTES_PARTICIPANTES,0,0,NA,Inf,-Inf,Solo 0 participantes con datos completos
+n_palabras_calculado,APTA_PARA_REVISION,17,17,75.3891446910953,17,378,NA
+n_estimulos,ESTRUCTURAL,17,17,1.2596295751794122,0,3,Variable de diseño (no es un outcome)

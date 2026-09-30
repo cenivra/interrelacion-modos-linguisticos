@@ -1,0 +1,68 @@
+MODELO LOGARÍTMICO
+Fórmula: valor ~ condicion * tiempo + (1 | id_participante) 
+
+Linear mixed model fit by REML. t-tests use Satterthwaite's method [
+lmerModLmerTest]
+Formula: formula
+   Data: dl
+Control: lmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 200000))
+
+REML criterion at convergence: 169.4
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-2.5752 -0.4520 -0.0136  0.5220  2.3677 
+
+Random effects:
+ Groups          Name        Variance Std.Dev.
+ id_participante (Intercept) 0.239    0.489   
+ Residual                    0.112    0.335   
+Number of obs: 120, groups:  id_participante, 40
+
+Fixed effects:
+                         Estimate Std. Error      df t value
+(Intercept)                4.5596     0.1584 57.5569   28.78
+condicionAudio             0.0374     0.2241 57.5569    0.17
+condicionImagen           -0.3073     0.2332 57.5569   -1.32
+tiempoT2                   0.1443     0.1265 74.0000    1.14
+tiempoT3                   0.2492     0.1265 74.0000    1.97
+condicionAudio:tiempoT2    0.2953     0.1789 74.0000    1.65
+condicionImagen:tiempoT2   0.1413     0.1862 74.0000    0.76
+condicionAudio:tiempoT3    0.4055     0.1789 74.0000    2.27
+condicionImagen:tiempoT3   0.2707     0.1862 74.0000    1.45
+                                    Pr(>|t|)    
+(Intercept)              <0.0000000000000002 ***
+condicionAudio                         0.868    
+condicionImagen                        0.193    
+tiempoT2                               0.258    
+tiempoT3                               0.053 .  
+condicionAudio:tiempoT2                0.103    
+condicionImagen:tiempoT2               0.450    
+condicionAudio:tiempoT3                0.026 *  
+condicionImagen:tiempoT3               0.150    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Correlation of Fixed Effects:
+            (Intr) cndcnA cndcnI timpT2 timpT3 cnA:T2 cnI:T2 cnA:T3
+condicionAd -0.707                                                 
+condicnImgn -0.679  0.480                                          
+tiempoT2    -0.399  0.282  0.271                                   
+tiempoT3    -0.399  0.282  0.271  0.500                            
+cndcnAd:tT2  0.282 -0.399 -0.192 -0.707 -0.354                     
+cndcnImg:T2  0.271 -0.192 -0.399 -0.679 -0.340  0.480              
+cndcnAd:tT3  0.282 -0.399 -0.192 -0.354 -0.707  0.500  0.240       
+cndcnImg:T3  0.271 -0.192 -0.399 -0.340 -0.679  0.240  0.500  0.480
+
+
+ANOVA:
+Type III Analysis of Variance Table with Satterthwaite's method
+                 Sum Sq Mean Sq NumDF DenDF F value      Pr(>F)    
+condicion          0.53   0.263     2    37    2.34        0.11    
+tiempo             4.55   2.277     2    74   20.33 0.000000092 ***
+condicion:tiempo   0.64   0.161     4    74    1.44        0.23    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+
+R² marginal: 0.1783  condicional: 0.7382 

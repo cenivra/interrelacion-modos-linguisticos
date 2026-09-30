@@ -1,0 +1,26 @@
+# ============================================================================
+# requirements.txt — Python dependencies for experimento-nlp
+# ============================================================================
+# Python dependencies required by the embeddings component.
+#
+# R dependencies are managed separately through renv.lock.
+# reticulate is an R package and therefore does not belong here.
+#
+# Congelado el 2026-09-24 desde el entorno realmente validado en este equipo:
+#   C:/venvs/renv-nlp   (CPython 3.11.16, Windows x86_64)
+#   Prueba de aceptación: SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
+#   .encode(..., normalize_embeddings=True) -> matriz de 384 columnas, norma L2 = 1
+#
+# Instalación reproducible (ruedas de CPU: evita ~2 GB de descarga CUDA):
+#   uv venv C:/venvs/renv-nlp --python 3.11
+#   uv pip install --python C:/venvs/renv-nlp/Scripts/python.exe --index-url https://download.pytorch.org/whl/cpu torch
+#   uv pip install --python C:/venvs/renv-nlp/Scripts/python.exe -r requirements.txt
+#
+# El modelo (paraphrase-multilingual-MiniLM-L12-v2) se resuelve desde la caché
+# local de HuggingFace; para forzar el modo sin red: HF_HUB_OFFLINE=1
+# ============================================================================
+
+sentence-transformers==6.1.0
+torch==2.14.0
+transformers==5.17.0
+numpy==2.4.6

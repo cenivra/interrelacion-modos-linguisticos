@@ -1,0 +1,52 @@
+# CITATION.cff — PENDIENTE DE CONFIRMACIÓN POR EL AUTOR DEL ESTUDIO
+# ---------------------------------------------------------------------------
+# Este archivo sigue el formato Citation File Format 1.2.0.
+# Los campos marcados con  # TODO_CONFIRMAR  no se pudieron verificar en la
+# auditoría y NO deben publicarse sin revisión del autor del estudio:
+#   * nombre y apellidos del autor (aquí va como aparece en la carpeta del
+#     proyecto, "Alfonso López Corral", sin confirmar)
+#   * ORCID y afiliación
+#   * año exacto de publicación y versión
+#   * número de registro del protocolo, si el estudio está registrado
+# El títular del repositorio NO es el autor del estudio.
+cff-version: 1.2.0
+message: "Si usa este material, cite el estudio y este paquete de análisis."
+title: "Interelación de modos lingüisticos"
+abstract: >-
+  Análisis longitudinal de escritura en tres iteraciones (sin estímulo, un estímulo y tres
+  estímulos acumulados) en tres condiciones de estímulo (texto, audio, imagen). El paquete
+  contiene el código del pipeline de procesamiento de lenguaje natural en español, las
+  especificaciones de los recursos léxicos, las tablas agregadas y las figuras, y no contiene
+  datos de participantes.
+type: software
+authors:
+  - family-names: "López Corral"
+    given-names: "Alfonso"
+    orcid: "https://orcid.org/0000-0003-2557-808X"
+    affiliation: "Departamento de Psicología y Ciencias de la Comunicación, Universidad de Sonora"
+
+  - family-names: "Gutiérrez Castro" 
+    given-names: "Lauro"            
+    # orcid: "https://orcid.org/0009-0005-5207-9448"
+    # affiliation: "Comunidad Terapéutica Under The Tree"                                  
+
+version: "1.0.0"                     # TODO_CONFIRMAR
+date-released: "2026-09-24"          # TODO_CONFIRMAR
+year: 2026                           # TODO_CONFIRMAR
+keywords:
+  - procesamiento de lenguaje natural
+  - escritura
+  - análisis longitudinal
+  - modelos mixtos
+  - embeddings semánticos
+  - español
+license: MIT
+license-url: "https://opensource.org/licenses/MIT"
+repository-code: "https://github.com/zarakaeldiosdelcaos-byte/experimento-nlp"
+# identifiers:
+#   - type: other
+#     value: "<número de registro del protocolo>"      # TODO_CONFIRMAR
+# preferred-citation:
+#   type: article
+#   title: ""                                          # TODO_CONFIRMAR: artículo derivado
+#   year: 2026

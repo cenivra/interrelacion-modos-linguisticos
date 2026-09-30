@@ -1,0 +1,51 @@
+Variable: n_palabras_calculado 
+
+Shapiro-Wilk de residuos: W = 0.9915  p = 0.9735 
+N observaciones: 51 
+Singular: FALSE 
+Convergencia: TRUE 
+
+
+Resumen del modelo:
+Linear mixed model fit by REML. t-tests use Satterthwaite's method [
+lmerModLmerTest]
+Formula: valor ~ condicion * tiempo + (1 | id_participante)
+   Data: dl
+Control: lmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 200000))
+
+REML criterion at convergence: 468.1
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-1.7109 -0.4459  0.0098  0.4620  1.9675 
+
+Random effects:
+ Groups          Name        Variance Std.Dev.
+ id_participante (Intercept) 3847     62.0    
+ Residual                    1304     36.1    
+Number of obs: 51, groups:  id_participante, 17
+
+Fixed effects:
+                         Estimate Std. Error    df t value Pr(>|t|)    
+(Intercept)                 143.7       29.3  19.9    4.90 0.000088 ***
+condicionAudio              -10.0       41.4  19.9   -0.24  0.81178    
+condicionImagen             -45.9       43.5  19.9   -1.06  0.30394    
+tiempoT2                    -26.8       20.8  28.0   -1.29  0.20862    
+tiempoT3                    -27.2       20.8  28.0   -1.30  0.20318    
+condicionAudio:tiempoT2      65.3       29.5  28.0    2.22  0.03501 *  
+condicionImagen:tiempoT2     32.2       30.9  28.0    1.04  0.30617    
+condicionAudio:tiempoT3     110.3       29.5  28.0    3.74  0.00084 ***
+condicionImagen:tiempoT3     40.0       30.9  28.0    1.29  0.20678    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Correlation of Fixed Effects:
+            (Intr) cndcnA cndcnI timpT2 timpT3 cnA:T2 cnI:T2 cnA:T3
+condicionAd -0.707                                                 
+condicnImgn -0.674  0.477                                          
+tiempoT2    -0.356  0.252  0.240                                   
+tiempoT3    -0.356  0.252  0.240  0.500                            
+cndcnAd:tT2  0.252 -0.356 -0.170 -0.707 -0.354                     
+cndcnImg:T2  0.240 -0.170 -0.356 -0.674 -0.337  0.477              
+cndcnAd:tT3  0.252 -0.356 -0.170 -0.354 -0.707  0.500  0.238       
+cndcnImg:T3  0.240 -0.170 -0.356 -0.337 -0.674  0.238  0.500  0.477

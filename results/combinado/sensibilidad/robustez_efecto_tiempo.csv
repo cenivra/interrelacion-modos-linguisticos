@@ -1,0 +1,6 @@
+"modelo","efecto_tiempo","p_tiempo","IC95_inf","IC95_sup","direccion","significacion"
+"primario",49.6249999999999,0.0153052281495613,NA,NA,"positivo","significativo"
+"con_demora",49.6249999999999,0.0238478256899688,NA,NA,"positivo","significativo"
+"log_n_palabras",0.144280440576579,0.257654219405107,NA,NA,"positivo","no significativo"
+"log_n_tokens",0.15855218888486,0.19751390534887,NA,NA,"positivo","no significativo"
+"n_estimulos",NA,NA,NA,NA,NA,NA

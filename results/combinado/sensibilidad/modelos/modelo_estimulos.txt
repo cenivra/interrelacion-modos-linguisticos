@@ -1,0 +1,60 @@
+MODELO DE EXPOSICIÓN ACUMULADA (n_estimulos)
+Fórmula: valor ~ condicion * n_estimulos + (1 | id_participante) 
+
+Linear mixed model fit by REML. t-tests use Satterthwaite's method [
+lmerModLmerTest]
+Formula: formula
+   Data: dl
+Control: lmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 200000))
+
+REML criterion at convergence: 1281
+
+Scaled residuals: 
+   Min     1Q Median     3Q    Max 
+-1.926 -0.448 -0.077  0.439  2.865 
+
+Random effects:
+ Groups          Name        Variance Std.Dev.
+ id_participante (Intercept) 4045     63.6    
+ Residual                    1877     43.3    
+Number of obs: 120, groups:  id_participante, 40
+
+Fixed effects:
+                            Estimate Std. Error     df t value   Pr(>|t|)    
+(Intercept)                   113.18      19.61  48.65    5.77 0.00000054 ***
+condicionAudio                 13.96      27.74  48.65    0.50     0.6170    
+condicionImagen               -25.31      28.87  48.65   -0.88     0.3849    
+n_estimulos                    14.26       5.36  77.00    2.66     0.0095 ** 
+condicionAudio:n_estimulos     13.71       7.58  77.00    1.81     0.0744 .  
+condicionImagen:n_estimulos     2.57       7.89  77.00    0.33     0.7453    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Correlation of Fixed Effects:
+            (Intr) cndcnA cndcnI n_stml cndA:_
+condicionAd -0.707                            
+condicnImgn -0.679  0.480                     
+n_estimulos -0.364  0.258  0.248              
+cndcnAd:n_s  0.258 -0.364 -0.175 -0.707       
+cndcnImgn:_  0.248 -0.175 -0.364 -0.679  0.480
+
+
+ANOVA:
+Type III Analysis of Variance Table with Satterthwaite's method
+                      Sum Sq Mean Sq NumDF DenDF F value      Pr(>F)    
+condicion               3529    1764     2  48.6    0.94        0.40    
+n_estimulos            71929   71929     1  77.0   38.32 0.000000027 ***
+condicion:n_estimulos   6858    3429     2  77.0    1.83        0.17    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+
+R² marginal: 0.1642  condicional: 0.7351 
+
+
+Comparación con modelo temporal:
+             modelo  AIC  BIC R2_marginal R2_condicional
+1 tiempo_categorico 1273 1303      0.1667         0.7321
+2       n_estimulos 1297 1319      0.1642         0.7351
+
+Nota: n_estimulos está funcionalmente determinado por el tiempo experimental.

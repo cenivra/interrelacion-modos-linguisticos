@@ -1,0 +1,27 @@
+[17:53:34] cohorte: principal | salida: C:/Users/saraq/Downloads/Experimento Alfonso Lopez Corral/Analisis agosto v2/familias_nuevas/principal 
+[17:53:35] participantes: 23 
+[17:53:35] diccionario contacto_leer: 24 términos | tasa media T1/T2/T3 = 2.42 / 2.50 / 2.47 
+[17:53:35] diccionario contacto_escuchar: 22 términos | tasa media T1/T2/T3 = 4.93 / 4.27 / 5.13 
+[17:53:35] diccionario contacto_observar: 29 términos | tasa media T1/T2/T3 = 5.35 / 6.20 / 6.82 
+[17:53:35] diccionario imaginacion: 19 términos | tasa media T1/T2/T3 = 2.56 / 1.75 / 2.16 
+[17:53:40]   contacto_leer: T1 2.42 → T3 2.47 (p = 0.9849, FDR 0.985) 
+[17:53:40]   contacto_escuchar: T1 4.93 → T3 5.13 (p = 0.6404, FDR 0.854) 
+[17:53:40]   contacto_observar: T1 5.35 → T3 6.82 (p = 0.6272, FDR 0.854) 
+[17:53:40]   imaginacion: T1 2.56 → T3 2.16 (p = 0.6086, FDR 0.854) 
+[17:53:40] índice de los tres modos: tiempo F(2,40) = 0.52, p = 0.5986 | medias 12.70 / 12.97 / 14.42 
+[17:53:40] elaboración: reaparece de T1 en T2 0.579 | de T2 en T3 0.680 (contenido nuevo: 0.421 y 0.320) 
+[17:53:40] elaboración T2 vs T3 (Wilcoxon pareado): p = 0.2726 
+[17:57:51] cohorte: principal | salida: C:/Users/saraq/Downloads/Experimento Alfonso Lopez Corral/Analisis agosto v2/familias_nuevas/principal 
+[17:57:52] participantes: 23 
+[17:57:52] diccionario contacto_leer: 24 términos | tasa media T1/T2/T3 = 2.42 / 2.50 / 2.47 
+[17:57:52] diccionario contacto_escuchar: 22 términos | tasa media T1/T2/T3 = 4.93 / 4.27 / 5.13 
+[17:57:52] diccionario contacto_observar: 29 términos | tasa media T1/T2/T3 = 5.35 / 6.20 / 6.82 
+[17:57:52] diccionario imaginacion: 19 términos | tasa media T1/T2/T3 = 2.56 / 1.75 / 2.16 
+[17:57:54]   contacto_leer: T1 2.42 → T3 2.47 (p = 0.9849, FDR 0.985) 
+[17:57:54]   contacto_escuchar: T1 4.93 → T3 5.13 (p = 0.6404, FDR 0.854) 
+[17:57:54]   contacto_observar: T1 5.35 → T3 6.82 (p = 0.6272, FDR 0.854) 
+[17:57:54]   imaginacion: T1 2.56 → T3 2.16 (p = 0.6086, FDR 0.854) 
+[17:57:54] índice de los tres modos: tiempo F(2,40) = 0.52, p = 0.5986 | medias 12.70 / 12.97 / 14.42 
+[17:57:54] elaboración: reaparece de T1 en T2 0.579 | de T2 en T3 0.680 (contenido nuevo: 0.421 y 0.320) 
+[17:57:54] elaboración T2 vs T3 (Wilcoxon pareado): p = 0.2726 
+[17:57:54] TF-IDF: T1-T2 0.617 | T2-T3 0.698 | T1-T3 0.489 | embeddings: 0.898 / 0.927 / 0.866 | correlación entre ambas medidas: 0.82 

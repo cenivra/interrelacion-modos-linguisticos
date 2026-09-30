@@ -1,0 +1,32 @@
+[18:03:09] cohorte principal: 23 participantes | columnas: 17 | columna id: id_participante 
+[18:03:09] textos preparados para codificar: 69 (T1+T2+T3) 
+[18:03:09] prototipos a codificar: 110 frases de 22 constructos 
+[18:22:28] cohorte principal: 23 participantes | columnas: 17 | columna id: id_participante 
+[18:22:28] textos preparados para codificar: 69 (T1+T2+T3) 
+[18:22:28] prototipos a codificar: 110 frases de 22 constructos 
+[18:24:49] codificación con el modelo 2 terminada en 2.3 min 
+[18:24:49] TSV temporal eliminado: TRUE 
+[18:24:50] vectores: textos 69×768 | prototipos 110×768 
+[18:27:34] cohorte principal: 23 participantes | columnas: 324 | columna id: id_participante 
+[18:27:34] se reutilizan los vectores ya codificados (no se vuelve a codificar) 
+[18:27:34] vectores: textos 69×768 | prototipos 110×768 
+[18:27:34] a) similitud  modelo1 0.898 / 0.927 / 0.866 | modelo2 0.909 / 0.928 / 0.875 | correlación por participante 0.97 
+[18:27:34] a) orden T2-T3 > T1-T2 > T1-T3 — modelo1: FALSE | modelo2: FALSE 
+[18:27:34] b) distancia T1-T3 por condición (modelo2, mayor a menor): Imagen 0.14 | Audio 0.08 | Texto 0.05 
+[18:27:34] b) varianza retenida PC1+PC2 modelo2: 30.55% (modelo1: 20.19%) | correlación de distancias 0.88 
+[18:28:00] cohorte principal: 23 participantes | columnas: 324 | columna id: id_participante 
+[18:28:00] se reutilizan los vectores ya codificados (no se vuelve a codificar) 
+[18:28:01] vectores: textos 69×768 | prototipos 110×768 
+[18:28:01] a) similitud  modelo1 0.898 / 0.927 / 0.866 | modelo2 0.909 / 0.928 / 0.875 | correlación por participante 0.97 
+[18:28:01] a) orden T2-T3 > T1-T2 > T1-T3 — modelo1: TRUE | modelo2: TRUE 
+[18:28:01] b) distancia T1-T3 por condición (modelo2, mayor a menor): Imagen 0.14 | Audio 0.08 | Texto 0.05 
+[18:28:01] b) varianza retenida PC1+PC2 modelo2: 30.55% (modelo1: 20.19%) | correlación de distancias 0.88 
+[18:28:02] c) constructos con mayor cambio (modelo2): 
+[18:28:02]    duda: modelo2 +0.0333 | modelo1 +0.0235 
+[18:28:02]    incertidumbre: modelo2 +0.0263 | modelo1 +0.0100 
+[18:28:02]    pasividad: modelo2 -0.0246 | modelo1 -0.0203 
+[18:28:02]    afrontamiento: modelo2 +0.0214 | modelo1 +0.0042 
+[18:28:02]    miedo: modelo2 +0.0199 | modelo1 +0.0126 
+[18:28:02]    emociones_negativas: modelo2 +0.0194 | modelo1 +0.0128 
+[18:28:02] c) correlación de los cambios por constructo entre modelos: 0.77 
+[18:28:02] terminado. archivos: registro.txt, registro_consola.txt, RESUMEN.md, a_similitud_dos_modelos.csv, b_distancias_dos_modelos.csv, c_prototipos_dos_modelos.csv 

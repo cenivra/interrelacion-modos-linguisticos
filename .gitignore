@@ -1,0 +1,47 @@
+﻿# R
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+.RDataTmp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+
+# Temporary
+*.tmp
+*.bak
+
+# Local caches
+.emb_cache/
+
+# Notebooks / checkpoints
+.ipynb_checkpoints/
+
+# ZIP / archives
+*.zip
+
+# Datos crudos y procesados: PUEDEN CONTENER NARRATIVAS DE PARTICIPANTES.
+# No se versionan (los archivos de captura viven fuera del repositorio).
+# OJO: data/processed/embeddings/** y data/processed/piloto/embeddings_piloto_*.rds
+# YA estaban versionados antes de esta regla y son artefactos agregados (matrices
+# numéricas, sin texto): se conservan a propósito.
+data/processed/**
+data/raw/*.xlsx
+
+# Las salidas agregadas de results/ SÍ se publican (figuras, tablas por efecto).
+# El control de que no entre ningún microdato se hace en tests/check_hashes.sh
+
+# Léxico de terceros (NRC Emotion Lexicon): se descarga, no se versiona.
+data/raw/lexicons/*.rds

@@ -1,0 +1,101 @@
+"constructo","familia","n_frase","frase","modelo_embeddings","dimension"
+"soledad","hopper",1,"me siento solo y aislado de los demás","paraphrase-multilingual-MiniLM-L12-v2",384
+"soledad","hopper",2,"no tengo compañía y me encuentro apartado","paraphrase-multilingual-MiniLM-L12-v2",384
+"soledad","hopper",3,"siento que estoy desconectado de las personas","paraphrase-multilingual-MiniLM-L12-v2",384
+"soledad","hopper",4,"me encuentro solo aunque haya otras personas","paraphrase-multilingual-MiniLM-L12-v2",384
+"soledad","hopper",5,"la soledad me envuelve y no encuentro consuelo","paraphrase-multilingual-MiniLM-L12-v2",384
+"espera","hopper",1,"estoy esperando que algo suceda","paraphrase-multilingual-MiniLM-L12-v2",384
+"espera","hopper",2,"siento que estoy detenido mientras espero","paraphrase-multilingual-MiniLM-L12-v2",384
+"espera","hopper",3,"permanezco en una situación de espera","paraphrase-multilingual-MiniLM-L12-v2",384
+"espera","hopper",4,"no sé cuánto tiempo tendré que esperar","paraphrase-multilingual-MiniLM-L12-v2",384
+"espera","hopper",5,"el tiempo se detiene y solo espero","paraphrase-multilingual-MiniLM-L12-v2",384
+"incomunicacion","hopper",1,"no logro comunicarme con los demás","paraphrase-multilingual-MiniLM-L12-v2",384
+"incomunicacion","hopper",2,"siento que no me escuchan ni me entienden","paraphrase-multilingual-MiniLM-L12-v2",384
+"incomunicacion","hopper",3,"estoy aislado sin poder expresar lo que siento","paraphrase-multilingual-MiniLM-L12-v2",384
+"incomunicacion","hopper",4,"la comunicación se ha roto y no hay diálogo","paraphrase-multilingual-MiniLM-L12-v2",384
+"incomunicacion","hopper",5,"me siento incomunicado y fuera de lugar","paraphrase-multilingual-MiniLM-L12-v2",384
+"objetos","hopper",1,"los objetos que me rodean me acompañan","paraphrase-multilingual-MiniLM-L12-v2",384
+"objetos","hopper",2,"muebles y pertenencias llenan el espacio","paraphrase-multilingual-MiniLM-L12-v2",384
+"objetos","hopper",3,"cada objeto tiene una historia y un significado","paraphrase-multilingual-MiniLM-L12-v2",384
+"objetos","hopper",4,"el entorno físico está lleno de cosas cotidianas","paraphrase-multilingual-MiniLM-L12-v2",384
+"objetos","hopper",5,"los objetos reflejan mi estado interior","paraphrase-multilingual-MiniLM-L12-v2",384
+"emociones_negativas","hopper",1,"siento una profunda tristeza y desesperanza","paraphrase-multilingual-MiniLM-L12-v2",384
+"emociones_negativas","hopper",2,"la angustia me invade y no puedo calmarme","paraphrase-multilingual-MiniLM-L12-v2",384
+"emociones_negativas","hopper",3,"estoy abrumado por emociones negativas","paraphrase-multilingual-MiniLM-L12-v2",384
+"emociones_negativas","hopper",4,"el miedo y la desolación me dominan","paraphrase-multilingual-MiniLM-L12-v2",384
+"emociones_negativas","hopper",5,"la tristeza y el dolor me acompañan constantemente","paraphrase-multilingual-MiniLM-L12-v2",384
+"luz_sombra","hopper",1,"la luz y la sombra crean un ambiente particular","paraphrase-multilingual-MiniLM-L12-v2",384
+"luz_sombra","hopper",2,"los contrastes de luz reflejan mis estados","paraphrase-multilingual-MiniLM-L12-v2",384
+"luz_sombra","hopper",3,"la penumbra me envuelve y oculta mi rostro","paraphrase-multilingual-MiniLM-L12-v2",384
+"luz_sombra","hopper",4,"la claridad y la oscuridad se alternan","paraphrase-multilingual-MiniLM-L12-v2",384
+"luz_sombra","hopper",5,"las sombras alargan mis pensamientos","paraphrase-multilingual-MiniLM-L12-v2",384
+"pasividad","hopper",1,"estoy quieto, sin movimiento ni acción","paraphrase-multilingual-MiniLM-L12-v2",384
+"pasividad","hopper",2,"la inactividad me define en este momento","paraphrase-multilingual-MiniLM-L12-v2",384
+"pasividad","hopper",3,"permanezco pasivo, sin reacción","paraphrase-multilingual-MiniLM-L12-v2",384
+"pasividad","hopper",4,"no tengo energía para moverme ni cambiar","paraphrase-multilingual-MiniLM-L12-v2",384
+"pasividad","hopper",5,"la pasividad es mi estado habitual","paraphrase-multilingual-MiniLM-L12-v2",384
+"desconexion","hopper",1,"siento que estoy desconectado de la realidad","paraphrase-multilingual-MiniLM-L12-v2",384
+"desconexion","hopper",2,"no logro conectar con lo que me rodea","paraphrase-multilingual-MiniLM-L12-v2",384
+"desconexion","hopper",3,"estoy alejado de las personas y del mundo","paraphrase-multilingual-MiniLM-L12-v2",384
+"desconexion","hopper",4,"la desconexión me aísla y me confunde","paraphrase-multilingual-MiniLM-L12-v2",384
+"desconexion","hopper",5,"mi mente y mi entorno están separados","paraphrase-multilingual-MiniLM-L12-v2",384
+"duda","hopper",1,"no estoy seguro de lo que he decidido","paraphrase-multilingual-MiniLM-L12-v2",384
+"duda","hopper",2,"la incertidumbre me impide avanzar","paraphrase-multilingual-MiniLM-L12-v2",384
+"duda","hopper",3,"me pregunto si he tomado la decisión correcta","paraphrase-multilingual-MiniLM-L12-v2",384
+"duda","hopper",4,"la duda me paraliza y me hace reflexionar","paraphrase-multilingual-MiniLM-L12-v2",384
+"duda","hopper",5,"estoy lleno de interrogantes sin respuesta","paraphrase-multilingual-MiniLM-L12-v2",384
+"espacio","hopper",1,"el espacio físico que me rodea es importante","paraphrase-multilingual-MiniLM-L12-v2",384
+"espacio","hopper",2,"las dimensiones de la habitación me contienen","paraphrase-multilingual-MiniLM-L12-v2",384
+"espacio","hopper",3,"el entorno espacial influye en mi estado","paraphrase-multilingual-MiniLM-L12-v2",384
+"espacio","hopper",4,"me siento atrapado en este espacio reducido","paraphrase-multilingual-MiniLM-L12-v2",384
+"espacio","hopper",5,"el lugar donde estoy define mi perspectiva","paraphrase-multilingual-MiniLM-L12-v2",384
+"tristeza","clinico",1,"siento una gran tristeza que no se va","paraphrase-multilingual-MiniLM-L12-v2",384
+"tristeza","clinico",2,"estoy profundamente apenado y sin esperanza","paraphrase-multilingual-MiniLM-L12-v2",384
+"tristeza","clinico",3,"la tristeza me embarga y no puedo salir","paraphrase-multilingual-MiniLM-L12-v2",384
+"tristeza","clinico",4,"me invade una melancolía constante","paraphrase-multilingual-MiniLM-L12-v2",384
+"tristeza","clinico",5,"el dolor emocional es permanente","paraphrase-multilingual-MiniLM-L12-v2",384
+"miedo","clinico",1,"siento miedo y temor por lo que pasará","paraphrase-multilingual-MiniLM-L12-v2",384
+"miedo","clinico",2,"el miedo me paraliza y no me deja avanzar","paraphrase-multilingual-MiniLM-L12-v2",384
+"miedo","clinico",3,"estoy aterrorizado sin razón aparente","paraphrase-multilingual-MiniLM-L12-v2",384
+"miedo","clinico",4,"temo lo desconocido y el futuro","paraphrase-multilingual-MiniLM-L12-v2",384
+"miedo","clinico",5,"la ansiedad y el miedo me dominan","paraphrase-multilingual-MiniLM-L12-v2",384
+"ansiedad_malestar","clinico",1,"siento ansiedad y malestar constante","paraphrase-multilingual-MiniLM-L12-v2",384
+"ansiedad_malestar","clinico",2,"la inquietud me tiene sin calma","paraphrase-multilingual-MiniLM-L12-v2",384
+"ansiedad_malestar","clinico",3,"mi mente no descansa, todo me preocupa","paraphrase-multilingual-MiniLM-L12-v2",384
+"ansiedad_malestar","clinico",4,"vivo en un estado de tensión permanente","paraphrase-multilingual-MiniLM-L12-v2",384
+"ansiedad_malestar","clinico",5,"el malestar emocional me consume","paraphrase-multilingual-MiniLM-L12-v2",384
+"esperanza","clinico",1,"tengo esperanza de que las cosas mejoren","paraphrase-multilingual-MiniLM-L12-v2",384
+"esperanza","clinico",2,"confío en que el futuro será mejor","paraphrase-multilingual-MiniLM-L12-v2",384
+"esperanza","clinico",3,"la esperanza me da fuerzas para seguir","paraphrase-multilingual-MiniLM-L12-v2",384
+"esperanza","clinico",4,"creo que mis deseos se cumplirán","paraphrase-multilingual-MiniLM-L12-v2",384
+"esperanza","clinico",5,"mantengo la ilusión de un cambio positivo","paraphrase-multilingual-MiniLM-L12-v2",384
+"confianza","clinico",1,"confío en mí mismo y en los demás","paraphrase-multilingual-MiniLM-L12-v2",384
+"confianza","clinico",2,"siento seguridad en mis capacidades","paraphrase-multilingual-MiniLM-L12-v2",384
+"confianza","clinico",3,"tengo fe en que todo saldrá bien","paraphrase-multilingual-MiniLM-L12-v2",384
+"confianza","clinico",4,"la confianza me permite actuar con decisión","paraphrase-multilingual-MiniLM-L12-v2",384
+"confianza","clinico",5,"creo en la solidez de mis relaciones","paraphrase-multilingual-MiniLM-L12-v2",384
+"agencia","clinico",1,"puedo tomar decisiones y actuar","paraphrase-multilingual-MiniLM-L12-v2",384
+"agencia","clinico",2,"tengo control sobre mi vida","paraphrase-multilingual-MiniLM-L12-v2",384
+"agencia","clinico",3,"soy capaz de generar cambios","paraphrase-multilingual-MiniLM-L12-v2",384
+"agencia","clinico",4,"mi voluntad es fuerte y determinada","paraphrase-multilingual-MiniLM-L12-v2",384
+"agencia","clinico",5,"me siento con poder para elegir","paraphrase-multilingual-MiniLM-L12-v2",384
+"control","clinico",1,"tengo el control de lo que me sucede","paraphrase-multilingual-MiniLM-L12-v2",384
+"control","clinico",2,"puedo manejar mis emociones y acciones","paraphrase-multilingual-MiniLM-L12-v2",384
+"control","clinico",3,"siento que todo está bajo mi dominio","paraphrase-multilingual-MiniLM-L12-v2",384
+"control","clinico",4,"soy dueño de mis decisiones y su rumbo","paraphrase-multilingual-MiniLM-L12-v2",384
+"control","clinico",5,"la autorregulación me da estabilidad","paraphrase-multilingual-MiniLM-L12-v2",384
+"incertidumbre","clinico",1,"no sé lo que va a pasar mañana","paraphrase-multilingual-MiniLM-L12-v2",384
+"incertidumbre","clinico",2,"el futuro es incierto y me preocupa","paraphrase-multilingual-MiniLM-L12-v2",384
+"incertidumbre","clinico",3,"vivo con la incertidumbre a cuestas","paraphrase-multilingual-MiniLM-L12-v2",384
+"incertidumbre","clinico",4,"la falta de certeza me desestabiliza","paraphrase-multilingual-MiniLM-L12-v2",384
+"incertidumbre","clinico",5,"no hay nada fijo ni seguro en mi vida","paraphrase-multilingual-MiniLM-L12-v2",384
+"evitacion","clinico",1,"evito enfrentar lo que me molesta","paraphrase-multilingual-MiniLM-L12-v2",384
+"evitacion","clinico",2,"prefiero no pensar en los problemas","paraphrase-multilingual-MiniLM-L12-v2",384
+"evitacion","clinico",3,"huyo de situaciones difíciles","paraphrase-multilingual-MiniLM-L12-v2",384
+"evitacion","clinico",4,"la evitación es mi estrategia de defensa","paraphrase-multilingual-MiniLM-L12-v2",384
+"evitacion","clinico",5,"no quiero afrontar la realidad","paraphrase-multilingual-MiniLM-L12-v2",384
+"afrontamiento","clinico",1,"busco maneras de enfrentar las dificultades","paraphrase-multilingual-MiniLM-L12-v2",384
+"afrontamiento","clinico",2,"afronto los problemas con determinación","paraphrase-multilingual-MiniLM-L12-v2",384
+"afrontamiento","clinico",3,"tengo recursos para manejar el estrés","paraphrase-multilingual-MiniLM-L12-v2",384
+"afrontamiento","clinico",4,"me adapto y supero los desafíos","paraphrase-multilingual-MiniLM-L12-v2",384
+"afrontamiento","clinico",5,"respondo activamente a las adversidades","paraphrase-multilingual-MiniLM-L12-v2",384

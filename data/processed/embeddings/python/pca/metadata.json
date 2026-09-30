@@ -1,0 +1,43 @@
+{
+  "artifact": "operational_pca_python",
+  "created": "2026-09-07",
+  "source": {
+    "language": "R",
+    "pca_source": "data/processed/embeddings/csv/pca/pca_embeddings_*.csv",
+    "embedding_source": "data/processed/embeddings/csv/embeddings/"
+  },
+  "construction": {
+    "matrix": "vstack(T1, T2, T3)",
+    "n_rows": 120,
+    "n_dimensions": 384,
+    "center": "R pca_embeddings_center.csv",
+    "scale": "R pca_embeddings_scale.csv",
+    "algorithm": "sklearn.decomposition.PCA",
+    "sign_alignment": "aligned to R loadings"
+  },
+  "rank": {
+    "effective_rank": 94,
+    "rank_tolerance": 1e-12,
+    "informative_components": "PC1-PC94",
+    "numerically_null_components": "PC95-PC120"
+  },
+  "operational_selection": {
+    "components_retained": "PC1-PC60",
+    "n_components": 60,
+    "cumulative_variance_percent": 99.04740736560767
+  },
+  "variance_reference": {
+    "PC8": 50.8594,
+    "PC15": 70.0,
+    "PC21": 78.7197,
+    "PC31": 89.5191,
+    "PC41": 95.0,
+    "PC60": 99.0474,
+    "PC94": 100.0
+  },
+  "provenance": {
+    "original_r_pca_preserved": true,
+    "r_pca_modified": false,
+    "derived_artifact": true
+  }
+}
